@@ -1,0 +1,538 @@
+/*************************************************
+
+        PROJECT NAME     :      WHITE GRAPHICS
+
+                    DEFAULT VALUES
+        FONT             :      Roboto Condensed
+        Medium Turquoise :      #34C6D3 (Buttons, Icons, Lines, &Bg)
+
+        Steel Grey       :      #41464B (Headings)
+
+        Blue Bayoux      :      #64707B (Paragraphs)
+
+        White            :      #FFF (Text with darg bg)
+
+        Black            :      #000
+
+
+*************************************************/
+
+/*************************************************
+                OWL COROUSEL CSS SECTION
+*************************************************/
+.owl-theme .owl-dots .owl-dots{
+    color: #000;
+    border-radius: 30px;
+}
+
+/*************************************************
+                GENERAL CSS SECTION
+*************************************************/
+body,
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.05em;
+    background-color: #fff;
+}
+
+h3{
+    color: #41464B;
+    font-weight: 700;
+}
+h4{
+    color: #41464B;
+    font-weight: 700;
+}
+p{
+    color: #64707B;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+header{
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+#logo{
+    max-width: 60%;
+    max-height: 50%
+    }
+/*************************************************
+                BUTTON SECTION GENERIC
+*************************************************/
+
+.btn-general{
+    border: solid 2px #fff;
+    border-radius: 0;
+    padding: 8px 16px;
+    font-size: 18px;
+    float: right;
+}
+
+.btn-white{
+    border-color: #fff;
+    color: #fff;
+    float: right;
+}
+.btn-white:hover,
+.btn-white:focus{
+    background: #fff;
+    color: #41464B;
+    float: right;
+}
+.btn-blue{
+    border-color: #000;
+    color: #000;
+    float: right;
+}
+.btn-blue:hover,
+.btn-blue:focus{
+    background: #000;
+    color: #fff;
+    float: right;
+}
+
+/*************************************************
+                PRALLAX CSS SECTION GENERIC
+*************************************************/
+.bg-parallax{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*************************************************
+                HOME SECTION CSS
+*************************************************/
+#home{
+    height: 100%;
+}
+.home-cover{
+    background-image: url("../images/bg-about.jpg");
+    height: 100%;
+
+}
+.home-content-box{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.home-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; /*u could have done it with the bootstrap class text-center*/
+}
+.home-cover h2{
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+
+
+/*************************************************
+                HOME SECTION ANIMATION
+*************************************************/
+
+.home-cover,
+.home-heading,
+.home-btn{
+    animation-duration: .5s;
+}
+
+.home-cover{
+    animation-delay: .1s;
+}
+
+.home-heading{
+    animation-delay: .5s;
+}
+.home-btn{
+    animation-delay: 1s;
+}
+
+
+
+/*************************************************
+                EVERY STYLE THING HERE
+*************************************************/
+
+.box{
+    padding: 30px 0;
+      float: left;
+        height: auto;
+}
+
+.title {
+    color: #fff;
+}
+
+.title-center {
+    position: absolute;
+
+        transform: translateX(100%);
+        text-align: center;
+        width: 100%;
+        color: #fff;
+         font-size: 60px;
+         font-weight: 700;
+}
+
+.title h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title-underline{
+    width: 30px;
+    height: 3px;
+    margin: 30px auto 30px;
+    background: #000;
+}
+
+.box-outer{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.box-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.desc{
+}
+
+
+/*************************************************
+ IMAGES
+*************************************************/
+.bg-diagonal {
+        float: top; /* Align to the right for big screens */
+        width: 100%;
+        height: 40vh; /* 25% of the viewport height */
+}
+
+@media (max-width: 768px) {
+    .bg-diagonal {
+              width: 100%;
+              height: 30vh;
+              float: top; /* Remove float for small screens */
+              display: block;
+              margin: 0 auto; /* Center the image on top */
+    }
+}
+
+
+/*************************************************
+               HEADER-SECTION CSS
+*************************************************/
+*************************************************/
+
+.navbar{
+    transition: all 0.5s ease-in-out;
+    border: none;
+    background-color: #fff;
+}
+
+.golden-line {
+    height: 3px;
+    background-color: rgba(201, 175, 70, 1);
+    width: 100%;
+  }
+
+  .golden-line-imp{
+    height: 3px;
+    background-color: rgba(201, 175, 70, 1);
+    width: 100%;
+    margin-top: 100px;
+  }
+
+.wg-top-nav{
+    background-color: #fff;
+}
+
+.wg-nav-wrapper{
+    padding: 0 50px;
+
+}
+
+.navbar-brand{
+    color: #fff;
+    font-size: 26px;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+#wg-menu{
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.navbar-nav>li>a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-align: right;
+}
+
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){
+      .mobileShow {display: inline;}
+
+.navbar-nav{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-align: right;
+    padding-top: 60px;
+    text-align: left;
+    align-items: right;
+}
+}
+
+.navbar-nav>li>a:focus,
+.navbar-nav>li>a:hover{
+    background: none;
+    /* color: #34C6D3; */
+}
+
+.navbar-toggle{
+    padding-top: 28px;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+
+.navbar-collapse{
+    max-height: none!important;
+}
+
+.navbar ul.navbar-nav>li.active>a{
+    color: rgba(201, 175, 70, 1);
+}
+
+.navbar-header {
+    flex: 1;
+    color: #fff;
+    font-size: 26px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+}
+
+.navbar{
+    padding-top: 1px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    background-color: #fff;
+}
+
+.wg-top-nav{
+    background-color: #fff;
+}
+
+.navbar-brand{
+    color: #fff;
+    font-size: 26px;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+#wg-menu{
+    float: right;
+    text-align: top right;
+}
+
+.navbar-nav>li>a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-nav>li>a:focus,
+.navbar-nav>li>a:hover{
+    background: none;
+    /* color: #34C6D3; */
+}
+/* .navbar-nav>li>a.active {
+    color: #34C6D3;
+} */
+
+.navbar-toggle .icon-bar{
+    background-color: rgba(201, 175, 70, 1);
+}
+
+.navbar-collapse {
+    padding-top: 16px;
+    text-align: right;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.left-content {
+    flex: 1;
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  .left-content ul {
+    padding-left: 20px; /* Adjust as needed */
+    margin: 0;
+  }
+
+  .left-content li {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside; /* Ensures the bullet is inside the padding */
+  }
+
+  .center-content {
+    flex: 4;
+    text-align: center;
+  }
+
+  .image-title {
+    font-size: 24px; /* Adjust as needed */
+    font-weight: bold;
+  }
+
+  .center-image {
+    text-align: center;
+  }
+
+  .center-image img {
+    max-width: 100%; /* Adjusted to fit within the container */
+    height: auto;
+  }
+
+.right-content {
+  flex: 2;
+  padding-left: 10px; /* Add padding to the left to prevent overlap */
+  padding-right: 10px;
+  text-align: left;
+}
+
+.right-content p {
+  color: #64707B;
+  font-size: 16px;
+  font-weight: 300;
+  align-self: flex-start;
+}
+
+.img-wrapper{
+    overflow: hidden;
+}
+.img-wrapper img{
+    transition: transform .5s ease;
+}
+.img-wrapper img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+
+}
+
+.col-md-3{
+    padding: 0;
+}
+
+.img_logo {
+    max-width: 10%;
+    height: auto;
+    padding: 16px 0 0 16px;
+    display: block;
+    float: left; /* Align the logo to the left */
+}
+
+@media (max-width: 768px) {
+    .img_logo {
+        max-width: 40%;
+    }
+}
+
+.img_logo_other {
+    max-width: 14%;
+    height: auto;
+    padding: 16px 0 0 16px;
+    display: block;
+    float: left; /* Align the logo to the left */
+}
+
+@media (max-width: 768px) {
+    .img_logo_other {
+        max-width: 40%;
+    }
+}
+
+.btn-left {
+    float: right;
+    margin-right: 2px; /* Adjust as needed for spacing */
+}
+
+
+@media (max-width: 768px) {
+    .title-center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+        color: #fff;
+    }
+}
+
+.el-element {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1;
+  }
+
+.row.no-gutters {
+    margin: 0;
+}
+
+.col-md-3, .col-sm-4, .col-xs-6 {
+    padding: 0; /* Remove padding from the columns */
+}
+
+.img-wrapper {
+    overflow: hidden;
+    padding: 0; /* Remove padding from the image wrapper */
+        margin: 0; /* Remove margin from the image wrapper */
+}
+
+.img-wrapper img {
+    transition: transform .5s ease;
+    padding: 0; /* Remove padding from the images */
+        margin: 0; /* Remove margin from the images */
+}
+
+.img-wrapper img:hover {
+     transform: scale(1.5);
+        cursor: zoom-in;
+}
