@@ -544,5 +544,11 @@ header{
 }
 
 .other_pages {
-  padding: 150px 190px;
+  padding: 190px 190px;
+}
+
+@media (max-width: 767px) {
+.other_pages {
+padding: 150px 10px;
+}
 }
