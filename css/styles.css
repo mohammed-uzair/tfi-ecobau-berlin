@@ -219,6 +219,8 @@ header{
         float: top; /* Align to the right for big screens */
         width: 100%;
         height: 40vh; /* 25% of the viewport height */
+        background-size: cover; /* Ensure the image covers the container without distortion */
+            background-position: center; /* Center the image */
 }
 
 @media (max-width: 768px) {
@@ -228,6 +230,8 @@ header{
               float: top; /* Remove float for small screens */
               display: block;
               margin: 0 auto; /* Center the image on top */
+              background-size: cover; /* Ensure the image covers the container without distortion */
+                      background-position: center; /* Center the image */
     }
 }
 
