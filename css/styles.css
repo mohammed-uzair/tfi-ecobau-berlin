@@ -108,7 +108,7 @@ header{
 
 @media (max-width: 768px) {
     .bg-parallax {
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
 }
 
