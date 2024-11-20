@@ -241,6 +241,8 @@ header{
     .bg-diagonal {
                   width: 100%;
                   height: 300px;
+                  background-position: center;
+                  float: bottom; /* Remove float for small screens */
         }
 }
 
