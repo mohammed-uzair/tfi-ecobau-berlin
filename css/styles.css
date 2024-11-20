@@ -103,13 +103,7 @@ header{
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-@media (max-width: 768px) {
-    .bg-parallax {
-        background-attachment: fixed;
-    }
+    background-attachment: scroll;
 }
 
 /*************************************************
