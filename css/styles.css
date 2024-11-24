@@ -174,24 +174,16 @@ header{
 }
 
 .home-heading .title {
-    font-size: 7.5em;
     color: #FAF9F6;
     letter-spacing: 0.12em;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     font-family: 'HomeTitle', sans-serif;
-    margin: 0;
 }
 
 .home-heading .subtitle {
-    font-size: 2.5em;
-    color: #FFFFFF;
-    letter-spacing: 0.10em;
-    margin: 0;
-
+    font-size: 20px;
+    color: #FAF9F6;
+    letter-spacing: 0.1em;
     font-family: "Montserrat", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
 }
 
 /*************************************************
